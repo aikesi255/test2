@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161515"
+    android:stretchColumns="1">
+
+    <TableRow android:background="#A49F9F">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Hello TableLayout"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="open"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:allowUndo="false"
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="Ctrl+O"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:allowUndo="false"
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="Ctrl+S"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="Save  As"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:allowUndo="false"
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="Ctrl+Shift+S"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="3dp"
+            android:background="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_height="3dp"
+            android:background="@color/white">
+
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="X Import"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="X Export"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:allowUndo="false"
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="Ctrl+E"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="3dp"
+            android:background="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_height="3dp"
+            android:background="@color/white">
+
+        </TextView>
+    </TableRow>
+
+
+    <TableRow>
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:text="Quit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+    </TableRow>
+</TableLayout>
